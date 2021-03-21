@@ -19,7 +19,7 @@ urlpatterns = [
 
     path('reset/done/::w'
          ':wq'
-         'Lsdjfklsda',
+         'Lsdjfklsdadd:',
          auth_views.PasswordResetCompleteView.as_view(
              template_name='auth_app/password_reset_complete.html'
          ),
